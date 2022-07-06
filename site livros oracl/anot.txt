@@ -1,0 +1,66 @@
+para converter em numero usamos o comando number()
+para converter definindo se é inteiro ou real ultilizamos o comando number.parsetInter ou number.parsetFloat()
+para converter em String ultilizamos o comando string() ou n.toString()
+window.prompt abre caixa de interação
+eindow.alert aparece uma caixa de msg antes de carregar página
+s.lenght quantos caracteres tem
+s.touppercase tudo em maiúsculo
+s.tolowercase tudo em minusculo
+n.tofixed(2) para colocar dua casas decimais apos a virgula
+
+function calcular(){
+    var txtv=window.document.getElementById('txtvel')
+    var res=window.document.getElementById('res')
+    var vel= Number(txtv.value)
+    res.innerHTML= '<p>sua velocidade atual é de '+vel+'km/hr</p>'}
+    if( vel>60){
+    res.innerHTML +='voce foi multado'
+    }
+
+
+
+ velocidade do carro : <input type="number" name="txtvel" id="txtvel"> km/hr
+              <input type="button" value="verificar" onclick="calcular()">
+               <div id="res">
+               </div>
+
+
+
+
+
+
+
+
+
+
+ sexo : <input type="string" name="sex" id="sex"> 
+         <input type="button" value="verificar" onclick="vizualizar()">
+       <div id="sex"></div>
+function calcular(){
+    var txtv=window.document.getElementById('txtvel')
+    var res=window.document.getElementById('res')
+    var vel= Number(txtv.value)
+    res.innerHTML= '<p>sua velocidade atual é de '+vel+'km/hr</p>'}
+    if( vel>60){
+    res.innerHTML +='voce é jovem <br>'
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

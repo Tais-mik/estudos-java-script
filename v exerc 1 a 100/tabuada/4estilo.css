@@ -1,0 +1,40 @@
+header#cortit {
+    
+    background:#867e8c;
+    border-radius: 10px;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font: normal 13pt arial ;
+    width: 577px;
+    box-shadow: 6px 6px 11px  rgb(47, 44, 44);
+  }
+  
+  body {
+    
+    background:#b1b1b1;
+    font:bolder 15pt arial;
+  }
+  section#corfun {
+    background: #867e8c;
+    color: rgb(40, 40, 42);
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 6px 6px 11px rgb(47, 44, 44);
+  }
+  select#flista {
+    width: 150px;
+  }
+  div {
+    text-align: center;
+    padding: 8px;
+    font: bolder 15pt arial;
+  }
+  
+  footer {
+    font: 10pt arial;
+    font-style: italic;
+    text-align: center;
+  
+  }
