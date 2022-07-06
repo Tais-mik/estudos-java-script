@@ -1,6 +1,6 @@
 header#cortit {
     
-    background:#d3a6f5;
+    background:#b4cbd3;
     border-radius: 10px;
     color: rgb(29, 28, 28);
     text-align: center;
@@ -11,11 +11,11 @@ header#cortit {
 
 body {
     
-    background:#f1c9db;
+    background:#9fdbe9;
     font:bolder 15pt arial;
 }
 section#corfun {
-    background: #d3a6f5;
+    background: #b4cbd3;
     color: rgb(40, 40, 42);
     border-radius: 10px;
     padding: 15px;
